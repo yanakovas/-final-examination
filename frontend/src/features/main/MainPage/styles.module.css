@@ -1,0 +1,125 @@
+.video_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  /* background: linear-gradient(to right, #F6EFE7 59%, #CBBEAF 41%); */
+  /* margin-top: 50px; */
+  /* margin-bottom: 102px; */
+  /* padding-bottom: 50px; */
+}
+
+video {
+  width: 80%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* body{
+    background-image: url('./img/net.svg');
+} */
+
+.main_container {
+  background-image: url('./img/net.svg');
+  background-color: white;
+  /* background-image: url('./1642908254_19-abrakadabra-fun-p-setka-tetradi-v-kletku-29.png'); */
+}
+
+.links_container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  justify-content: center;
+  align-items: center;
+  height: 252px;
+  background: #ece6e0;
+}
+
+.btn_text {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.starButton {
+  display: flex;
+  flex-direction: column;
+}
+
+.starImg {
+  display: flex;
+  margin: auto;
+}
+
+/* ниже див новостей */
+
+.newsContainer {
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  padding-bottom: 55px;
+}
+
+.leftPart {
+}
+
+.rightPart {
+}
+
+.newsCard1,
+.newsCard2,
+.newsCard3 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 48vw;
+  overflow: hidden;
+}
+
+.newsCard1 {
+  height: 360px;
+}
+
+.newsCard2 {
+  height: 400px;
+}
+
+.newsCard3 {
+}
+
+.newsImg {
+  width: 100%;
+}
+
+.name {
+  display: flex;
+  position: absolute;
+  height: 105px;
+  width: 48vw;
+  background: rgba(246, 239, 231, 0.8);
+  bottom: 0;
+}
+
+.text {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+}
+
+.title {
+  margin-top: 100px;
+  margin-left: 50%;
+  margin-right: 50%;
+  font-size: 29px;
+}
+
+.upButton {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+}

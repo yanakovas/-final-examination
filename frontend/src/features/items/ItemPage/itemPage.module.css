@@ -1,0 +1,62 @@
+.name {
+  display: flex;
+  width: 100%;
+  bottom: 0;
+  gap: 3%;
+  flex-direction: column;
+}
+
+.pic {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 48%;
+  overflow: hidden;
+  margin-top: 1.33em;
+}
+
+.productText {
+  display: flex;
+  width: 48%;
+  flex-direction: column;
+}
+
+.text {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+}
+
+.card {
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3.5%;
+}
+
+.buyButton:hover {
+  background: #d7dbe3;
+}
+
+.buyButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #bbbcc0;
+}
+
+.buyButton {
+  margin-top: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 10%;
+  background: rgb(225, 215, 215);
+  color: rgb(84, 78, 78);
+  padding: 6px 14px;
+  font-size: 14px;
+  margin-right: 1%;
+}
+.linkBack {
+  display: flex;
+  justify-content: space-around;
+}

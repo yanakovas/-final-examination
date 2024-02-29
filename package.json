@@ -1,0 +1,22 @@
+{
+  "name": "final-examination",
+  "version": "1.0.0",
+  "description": "Проект",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd backend && npm i && node db/reset.js && npx sequelize db:seed:all && cd ../frontend && npm i && DISABLE_ESLINT_PLUGIN=true npm run build",
+    "start": "cd backend && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/generalMashuka/WEAREJURGENSONS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/generalMashuka/WEAREJURGENSONS/issues"
+  },
+  "homepage": "https://github.com/generalMashuka/WEAREJURGENSONS#readme"
+}

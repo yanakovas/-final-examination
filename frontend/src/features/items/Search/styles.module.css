@@ -1,0 +1,10 @@
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linkBack {
+    display: flex;
+    justify-content: space-around;
+  }

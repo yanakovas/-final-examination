@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  justify-content: baseline;
+  margin-bottom: 2%;
+  background-color: #cbbeaf;
+  width: 30%;
+}
+
+.card img {
+  width: 50%;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  margin-bottom: 10%;
+}
+
+.btnDelet {
+  margin-top: 10px;
+  display: inline-block;
+  color: rgb(12, 9, 9);
+  font-weight: 500;
+  text-decoration: none;
+  user-select: none;
+  padding: 0.5em 2em;
+  outline: none;
+  border: 1px solid;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.btnDelet:hover {
+  background: #cbbeaf;
+}
+.btnDelet:active {
+  background: #cbbeaf;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1024px){
+  .card {
+    width: 49%;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .card {
+    width: 100%;
+  }
+}

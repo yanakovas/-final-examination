@@ -1,0 +1,24 @@
+.name {
+display: flex;
+position:absolute;
+height: 105px;
+width: 880px;
+background: rgba(246, 239, 231, 0.8);
+bottom: 0;
+}
+
+.pic {
+margin-top: 40px;
+display: flex;
+position: relative;
+flex-direction: column;
+height: 430px;
+width: 880px;
+overflow: hidden;
+}
+
+.text {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
